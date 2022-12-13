@@ -25,6 +25,7 @@ public class StartMeditation : MonoBehaviour
     {
         PanelMed.SetActive(true);
         mainCamera.transform.position = spawnPoint.position;
+        mainCamera.transform.rotation = spawnPoint.rotation;
         locomotionSystem.SetActive(false);
         audiosource.Play();
 
