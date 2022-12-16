@@ -16,11 +16,9 @@ public class WateringCanParticles : MonoBehaviour
     {
 
 
-        Debug.Log("ROTACION:"+ transform.eulerAngles.x);
         if (gameObject.transform.eulerAngles.x > 24 && gameObject.transform.eulerAngles.x < 90)
         {
             particleSystem.Play();
-            Debug.Log("Estoy regando");
         }
         else
         {
@@ -28,4 +26,5 @@ public class WateringCanParticles : MonoBehaviour
 
         }
     }
+    
 }

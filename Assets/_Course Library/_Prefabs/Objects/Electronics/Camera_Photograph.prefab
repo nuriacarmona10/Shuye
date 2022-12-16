@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 506385012}
   - component: {fileID: 506385013}
   - component: {fileID: 506385014}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Camera_Photograph
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -110,7 +110,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_InteractionLayers:
-    m_Bits: 1
+    m_Bits: 4294967295
   m_SelectMode: 0
   m_CustomReticle: {fileID: 0}
   m_FirstHoverEntered:
@@ -231,7 +231,7 @@ GameObject:
   - component: {fileID: 4685952657094869324}
   - component: {fileID: 7460367757188879154}
   - component: {fileID: 2509688457410731223}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Photograph_Frame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -327,7 +327,7 @@ GameObject:
   - component: {fileID: 3269336150200152456}
   - component: {fileID: 3254897640961094018}
   - component: {fileID: 9189257203750264335}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Photograph_Film
   m_TagString: Untagged
   m_Icon: {fileID: 0}
